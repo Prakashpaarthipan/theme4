@@ -1,0 +1,203 @@
+.popover{
+          top: 50px; left: -112px; display: block; width: 400px; margin-left: -70px;padding:0px;z-index: 9999 !important;
+        }
+        .arrow{
+          left:80% !important;
+        }
+       .img-responsive {
+            /*width: 100%;*/
+            display: block;
+            height: auto;
+            max-width: 70px;
+            vertical-align: middle !important;
+            padding:5px;
+            
+           
+        }
+       .popover-content{
+          padding: 5px !important;
+        }
+        @media (min-width: 1200px)
+                .container {
+                    width: 100%;
+                }
+
+
+/*Header CSS*/
+.header_nav{
+  background-color: #1c1853;border:none;
+}
+.header_nav_con{
+  margin: 0px;padding: 0px;width: 100%;
+}
+.header_nav_ul{
+  background-color: white;padding-bottom: 8px;
+}
+.color_white{
+  color:white !important;
+}
+.popover_td1{
+  margin:0;padding:0;width:70px !important;
+}
+.popover_img{
+  text-align:center;width:70px;height:70px;
+}
+.popover_td2{
+  width:auto !important;vertical-align:middle !important;
+}
+.popover_div{
+  padding-left:5px;text-transform:uppercase;font-size:12px;text-align:left !important;
+}
+
+
+
+
+/*home1.php CSS*/
+
+.dynamicTile{
+  margin-top: 10%;
+}
+.item{
+  height:175px !important;
+  width:175px !important;
+  /*padding:10px !important;*/
+}
+#sorttiles{
+  
+  height: 180px;
+  /*border: solid 2px #999;*/
+  /*background: #eee;*/
+  width: 180px;
+  /*padding: 10px;*/
+  overflow: hidden;
+  overflow-y: hidden;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+
+}
+.item>a{
+  display: block;height: 100%;width: 100%;
+}
+.tilecaption{
+  position: sticky !important;margin-top: 1px !important;
+}
+.tile_span{
+  padding-top:20%; display:table;margin:0px auto;font-weight: bold;color: white; padding-bottom: 5%;
+}
+.tile_bg{
+  background-color: #673AB7;
+}
+.tile7_a{
+  height: 185px;
+}
+.tile9_a1{
+  display: block;height: 185px;
+}
+.tile9_a2{
+  display: block;height: 185px;background-color: #455A64;
+}
+.tile9_a3{
+  display: block;height: 185px;background-color: #651FFF;
+}
+
+#sortable {
+  list-style: none;
+  /*border: solid 4px #62B1F6;*/
+  margin: 0px;
+  padding: 0px;
+  min-width: 100%;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+#sortable li {
+  display: list-item;
+  text-align: inherit; 
+  margin: 5px;
+   padding: 1px;
+   float: left;
+}
+#sortable li:hover {
+  cursor: pointer;
+}
+#sortable li .box {
+  height: 170px;
+  /*border: solid 1px #999;*/
+  background: #eee;
+  width: 170px;
+  padding: 5px;
+  overflow: hidden;
+  overflow-y: hidden;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  float: right;
+  /*text-align: right;*/
+  right: 0;
+}
+#sortable li .box.danger {
+  background: #F08080;
+  color: #931111;
+  border-color: #c01717;
+}
+#sortable li .box.danger .fa {
+  color: #c01717;
+}
+#sortable li .box.good {
+  background: #BCED91;
+  color: #3d6d12;
+  border-color: #6dc520;
+}
+#sortable li .box.good .fa {
+  color: #3d6d12;
+}
+#sortable li .box.excellent {
+  color: #084a84;
+  background: #62B1F6;
+  border-color: #0a65b5;
+}
+#sortable li .box.excellent .fa {
+  color: #0a65b5;
+}
+#sortable li .box.nostatus {
+  color: #333;
+  /*background: white;*/
+  /*border-color: gray;*/
+}
+#sortable li .box.nostatus.badge .badge-info {
+  color: #333;
+ text-align: left;
+  /*border-color: gray;*/
+}
+#sortable li .box.nostatus .s{
+  color: #fff;
+}
+#sortable li .box.nostatus .iconalign {
+  /*color: #fff !important;*/
+  text-align: center !important;
+  font-family: Montserrat, helvetica-neue, helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+
+}
+#sortable li a {
+  /*color: #fff !important;*/
+  
+  color: #fff;
+
+}
+#sortable li .box.nostatus .fa {
+  color: #fff;
+}
+#sortable li .box h4 {
+  margin-top: 0;
+}
+#sortable li .box h4 .fa {
+  display: inline-block;
+  margin-right: 4px;
+}
+#sortable li .box p {
+  color: #fff;
+  font-size: 12px;
+}
